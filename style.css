@@ -1,0 +1,170 @@
+body, p {
+  margin: 0px;
+  height: 100%;
+  font-family: 'Overpass', sans-serif;
+}
+
+h1, h2, h3{
+  margin: 0px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+  height: 200px;
+  background-image: url(img/bg_header.png);
+  background-repeat: repeat-x;
+}
+
+.navbar{
+  top: 0;
+  overflow: hidden;
+  position: sticky;
+  background-color: #FFFFFF;
+  height: 50px;
+}
+
+.navbar a{
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 15px;
+  text-decoration:none;
+}
+
+.navbar a:hover{
+  background-color: #F70000;
+  color: #E8ECE8;
+}
+
+.content{
+  margin: 8px 15px 8px 25px;
+  text-align: center;
+  padding: 50px;
+}
+
+.content-inner{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.footer{
+  padding: 25px;
+  text-align:center;
+  background: #00A368;
+}
+
+.bg{
+  min-width: 100%;
+}
+
+.logo-main{
+  height: 75px;
+  width: 75px;
+  background-color: white;
+}
+
+.logo-nav{
+  float: right;
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+}
+
+.title{
+  color: #000000;
+  text-align: center;
+  padding: 5px;
+}
+
+.title-bg{
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 75px;
+  width: 50%;
+  background-color: white;
+}
+
+.title-nav{
+  float: right;
+  margin: 10px;
+  text-align: center;
+}
+
+.icon-nav{
+  margin-right: 0px;
+}
+
+.card-container{
+  display: inline-block;
+  max-height: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card{
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+}
+
+.card-img{
+  height: 200px;
+  width: 200px;
+}
+
+.card-title{
+  text-align: center;
+  height: 12px;
+  width: auto;
+}
+
+.card-desc{
+  text-align: center;
+  padding-top: 15px;
+  height: 200px;
+  width: 200px;
+}
+
+.text-title{
+  font-size: 18px;
+}
+
+.text-left{
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.text-just{
+  text-align: justify;
+  font-size: 12px;
+}
+
+.button{
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: 'Overpass', sans-serif;
+  cursor: pointer;
+}
+
+.form{
+  padding:8px;
+  display:block;
+  width: 800px;
+  margin: 10px 200px 10px 200px;
+}
+
+#more, #more2, #more3, #more4, #more5{
+  display: none;
+}
