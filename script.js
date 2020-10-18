@@ -85,6 +85,9 @@ function sendQ() {
 
   if(q1 != "" && q2!= "" && q3 != ""){
     alert("Pesan telah terkirim!");
+    var q1 = document.getElementById("q1").remove;
+    var q2 = document.getElementById("q2").remove;
+    var q3 = document.getElementById("q3").remove;
   }
 }
 
